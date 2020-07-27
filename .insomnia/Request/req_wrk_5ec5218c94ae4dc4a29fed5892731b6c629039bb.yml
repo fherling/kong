@@ -1,0 +1,64 @@
+_id: req_wrk_5ec5218c94ae4dc4a29fed5892731b6c629039bb
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "string",
+      "status": "string",
+      "kommentar": "string",
+      "meldebereich": "string",
+      "antragTyp": "string",
+      "titelRueckfragen": "string",
+      "nameRueckfragen": "string",
+      "emailRueckfragen": "string",
+      "telefonRueckfragen": "string",
+      "krankenhaus": {
+        "id": "string",
+        "bezeichnung": "string",
+        "strasse": "string",
+        "hausnummer": "string",
+        "plz": "string",
+        "ort": "string",
+        "bundesland": "string",
+        "ikNummer": "string",
+        "position": {
+          "latitude": 0,
+          "longitude": 0
+        },
+        "intensivmedizinischePlanbetten": 0,
+        "meldebereicheNichtVollstaendig": true
+      },
+      "loginEmail": "string",
+      "meldebereichName": "string",
+      "bettenPlankapazitaet": 0,
+      "recaptcha": "string",
+      "tags": [
+        "string"
+      ],
+      "erstellt": "2020-07-27T15:07:31.200Z",
+      "versorgungsgrad": "string",
+      "behandlungsschwerpunktL1": "string",
+      "behandlungsschwerpunktL2": "string",
+      "behandlungsschwerpunktL3": "string"
+    }
+created: 1595346887500
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1595346887500
+method: POST
+modified: 1595862451214
+name: /public/stammdaten/meldebereichAntrag
+parameters: []
+parentId: wrk_5ec5218c94ae4dc4a29fed5892731b6c
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/public/stammdaten/meldebereichAntrag"

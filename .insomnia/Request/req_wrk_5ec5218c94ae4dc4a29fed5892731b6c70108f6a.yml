@@ -1,0 +1,74 @@
+_id: req_wrk_5ec5218c94ae4dc4a29fed5892731b6c70108f6a
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "string",
+      "meldebereich": {
+        "id": "string",
+        "bezeichnung": "string",
+        "behandlungsschwerpunktL1": "string",
+        "behandlungsschwerpunktL2": "string"
+      },
+      "meldezeitpunkt": "2020-07-27T15:07:31.200Z",
+      "bettenmeldungen": [
+        {
+          "versorgungskategorie": "string",
+          "bettenFrei": 0,
+          "bettenBelegt": 0,
+          "bettenIn24h": 0,
+          "bettenVerfuegbarkeit": "string"
+        }
+      ],
+      "faelleCovidAktuell": 0,
+      "faelleCovidAktuellBeatmet": 0,
+      "faelleCovidGenesen": 0,
+      "faelleCovidVerstorben": 0,
+      "betriebssituation": "string",
+      "betriebseinschraenkungPersonal": true,
+      "betriebseinschraenkungRaum": true,
+      "betriebseinschraenkungBeatmungsgeraet": true,
+      "betriebseinschraenkungVerbrauchsmaterial": true,
+      "api_version": "string",
+      "quellsystem": "string",
+      "lastUpdateTimestamp": "2020-07-27T15:07:31.200Z",
+      "lastUpdateIdmUserId": "string",
+      "creationIdmUserId": "string",
+      "creationTimestamp": "2020-07-27T15:07:31.200Z",
+      "meldezeitpunktManuellGeaendertTimestamp": "2020-07-27T15:07:31.200Z",
+      "aktiv": true,
+      "kapazitaeten": {
+        "intensivBetten": 0,
+        "intensivBettenBelegt": 0,
+        "patientenInvasivBeatmet": 0,
+        "patientenEcmo": 0,
+        "freieIvKapazitaet": 0,
+        "freieEcmoKapazitaet": 0,
+        "intensivBettenNotfall7d": 0,
+        "statusEinschaetzungLowcare": "string",
+        "statusEinschaetzungHighcare": "string",
+        "statusEinschaetzungEcmo": "string"
+      },
+      "auspraegung": "string"
+    }
+created: 1595346887497
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1595346887497
+method: POST
+modified: 1595862451205
+name: /meldungen
+parameters: []
+parentId: wrk_5ec5218c94ae4dc4a29fed5892731b6c
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/meldungen"

@@ -1,0 +1,48 @@
+_id: req_wrk_5ec5218c94ae4dc4a29fed5892731b6c6b3b9f68
+authentication: {}
+body: {}
+created: 1595346887508
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1595346887508
+method: GET
+modified: 1595862451234
+name: /public/intensivregister
+parameters:
+  - disabled: true
+    name: page
+    value: "0"
+  - disabled: true
+    name: size
+    value: "0"
+  - disabled: true
+    name: bundesland
+    value: string
+  - disabled: true
+    name: kkhId
+    value: string
+  - disabled: true
+    name: kkhBezeichnung
+    value: string
+  - disabled: true
+    name: meldebereich
+    value: string
+  - disabled: true
+    name: longitude
+    value: "0"
+  - disabled: true
+    name: latitude
+    value: "0"
+  - disabled: true
+    name: distance
+    value: "0"
+parentId: wrk_5ec5218c94ae4dc4a29fed5892731b6c
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/public/intensivregister"

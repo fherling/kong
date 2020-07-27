@@ -1,0 +1,14 @@
+_id: env_env_97bb0ccebda807d7e2b268f3279b120d973441ed_sub
+color: null
+created: 1595346887513
+data:
+  base_path: /api
+  host: ir.dev.cnee.prodyna.com
+  scheme: https
+dataPropertyOrder: null
+isPrivate: false
+metaSortKey: 1595346887513
+modified: 1595862451241
+name: OpenAPI env
+parentId: env_97bb0ccebda807d7e2b268f3279b120d973441ed
+type: Environment

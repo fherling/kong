@@ -1,0 +1,55 @@
+_id: req_wrk_5ec5218c94ae4dc4a29fed5892731b6c45998007
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "criteria": {
+        "bundesland": "string",
+        "standortId": "string",
+        "standortBezeichnung": "string",
+        "meldebereichName": "string",
+        "geoSearch": {
+          "longitude": 0,
+          "latitude": 0,
+          "distanz": 0
+        },
+        "bettenKategorie": [
+          "string"
+        ],
+        "bettenStatus": [
+          "string"
+        ],
+        "behandlungsschwerpunktL1": [
+          "string"
+        ],
+        "behandlungsschwerpunktL2": [
+          "string"
+        ],
+        "behandlungsschwerpunktL3": [
+          "string"
+        ]
+      },
+      "pageNumber": 0,
+      "pageSize": 0
+    }
+created: 1595346887506
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1595346887506
+method: POST
+modified: 1595862451232
+name: /public/intensivregister
+parameters: []
+parentId: wrk_5ec5218c94ae4dc4a29fed5892731b6c
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/public/intensivregister"
